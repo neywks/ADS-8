@@ -1,13 +1,12 @@
 // Copyright 2021 NNTU-CS
-#include  <iostream>
-#include  <fstream>
-#include  <locale>
-#include  <cstdlib>
-#include  "bst.h"
 #include <algorithm>
+#include <fstream>
+#include <iostream>
 #include <vector>
-#include <utility>
 #include <string>
+#include <utility>
+
+#include "bst.h"
 
 static bool isLatin(char c) {
   return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
