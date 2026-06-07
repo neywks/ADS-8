@@ -2,6 +2,7 @@
 #ifndef INCLUDE_BST_H_
 #define INCLUDE_BST_H_
 #include <algorithm>
+#include <utility>
 #include <string>
 #include <vector>
 
@@ -63,4 +64,5 @@ class BST {
       inorder(root, out);
     }
 };
+
 #endif  // INCLUDE_BST_H_
